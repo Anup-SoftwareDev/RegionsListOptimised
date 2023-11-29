@@ -31,7 +31,7 @@
 		CAD0C46D2B0EC7250089D7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAD0C4702B0EC7250089D7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAD0C4722B0EC7250089D7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CAD0C4782B0F10C70089D7EA /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomNavigationBar.swift; path = "../New Group/CustomNavigationBar.swift"; sourceTree = "<group>"; };
+		CAD0C4782B0F10C70089D7EA /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 		CAD0C49C2B14087B0089D7EA /* RegionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionCell.swift; sourceTree = "<group>"; };
 		CAD0C49F2B14B2100089D7EA /* RegionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				CAD0C49C2B14087B0089D7EA /* RegionCell.swift */,
-				CAD0C4782B0F10C70089D7EA /* CustomNavigationBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -93,6 +92,7 @@
 				CAD0C46D2B0EC7250089D7EA /* Assets.xcassets */,
 				CAD0C46F2B0EC7250089D7EA /* LaunchScreen.storyboard */,
 				CAD0C4722B0EC7250089D7EA /* Info.plist */,
+				CAD0C4782B0F10C70089D7EA /* CustomNavigationBar.swift */,
 			);
 			path = RegionsListOptimised;
 			sourceTree = "<group>";
