@@ -79,7 +79,7 @@ extension RegionsVC {
             presentMsgFunction(title: "No Selection", message: "Please Select a Region")
             return
         }
-        presentMsgFunction(title: "Region Selected", message: viewModel.getSelectedRegionName(index: validIndex))
+        presentMsgFunction(title: "Region Selected", message: viewModel.getRegionNameFromOrignalWithIndex(index: validIndex))
     }
     
     // Protocol function for BarBackButton

@@ -105,14 +105,15 @@ class RegionCell: UITableViewCell {
     // MARK: - Configure Cell
 
     func configure(viewModel: RegionsViewModel, index: Int) {
-        let regionName = viewModel.regionsLoadingData[index].name.regionName
-        let cellSelected = viewModel.regionsLoadingData[index].isSelected
+        //let regionName = viewModel.regionsLoadingData[index].name.regionName
+        let regionName = viewModel.getRegionNameFromLoadingWithIndex(index: index)
+        let cellSelectedStatus = viewModel.regionsLoadingData[index].isSelected
 
         regionNameLbl.text = regionName
 
-        globeImgView.image = cellSelected ? globeImgGreen : globeImgGray
-        selectTickImgView.isHidden = !cellSelected
-        regionNameLbl.font = cellSelected ? .boldSystemFont(ofSize: 16) : .systemFont(ofSize: 16)
+        globeImgView.image = cellSelectedStatus ? globeImgGreen : globeImgGray
+        selectTickImgView.isHidden = !cellSelectedStatus
+        regionNameLbl.font = cellSelectedStatus ? .boldSystemFont(ofSize: 16) : .systemFont(ofSize: 16)
     }
 }
 

@@ -58,6 +58,8 @@
 		CABBC26B2B17F5420089E788 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CAD0C4682B0EC7240089D7EA /* RegionsVC.swift */,
+				CAD0C4782B0F10C70089D7EA /* CustomNavigationBar.swift */,
 				CAD0C49C2B14087B0089D7EA /* RegionCell.swift */,
 			);
 			path = View;
@@ -87,12 +89,10 @@
 				CAD0C49E2B1498630089D7EA /* Model */,
 				CAD0C4642B0EC7240089D7EA /* AppDelegate.swift */,
 				CAD0C4662B0EC7240089D7EA /* SceneDelegate.swift */,
-				CAD0C4682B0EC7240089D7EA /* RegionsVC.swift */,
 				CAD0C46A2B0EC7240089D7EA /* Main.storyboard */,
 				CAD0C46D2B0EC7250089D7EA /* Assets.xcassets */,
 				CAD0C46F2B0EC7250089D7EA /* LaunchScreen.storyboard */,
 				CAD0C4722B0EC7250089D7EA /* Info.plist */,
-				CAD0C4782B0F10C70089D7EA /* CustomNavigationBar.swift */,
 			);
 			path = RegionsListOptimised;
 			sourceTree = "<group>";

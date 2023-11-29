@@ -70,11 +70,16 @@ class RegionsViewModel {
     }
     
     // Function to return the Region name for selected cell in the Table View
-    func getSelectedRegionName(index: Int) -> String {
-        let selectedRegionName = regionsOriginalData[index].name.regionName
-        return selectedRegionName
+    func getRegionNameFromOrignalWithIndex(index: Int) -> String {
+        let regionName = regionsOriginalData[index].name.regionName
+        return regionName
     }
     
+    // Function to return the Region name for selected cell in the Table View
+    func getRegionNameFromLoadingWithIndex(index: Int) -> String {
+        let regionName = regionsLoadingData[index].name.regionName
+        return regionName
+    }
     // Function to respond back Reset button clicked.
     func backResetButtonClicked() {
         setArrayValuesFalse(array: &regionsOriginalData)
